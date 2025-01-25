@@ -28,6 +28,7 @@ public class Student // model the student raw data
    private int sid; // principle "encapsulation"
 private int sem;
 private String coursename;
+private int year;
     /**
      * @return the name
      */
