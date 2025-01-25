@@ -10,9 +10,24 @@ package studentlist;
  */
 public class Student // model the student raw data
 {
+
+    /**
+     * @return the coursename
+     */
+    public String getCoursename() {
+        return coursename;
+    }
+
+    /**
+     * @param coursename the coursename to set
+     */
+    public void setCoursename(String coursename) {
+        this.coursename = coursename;
+    }
     private String name; // variables private 
    private int sid; // principle "encapsulation"
 private int sem;
+private String coursename;
     /**
      * @return the name
      */
